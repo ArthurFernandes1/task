@@ -18,11 +18,12 @@ console.log("olá");
 // Ao final deve se exibida uma mensagem:
 // "O herói de nome **{nome}** está no nível de **{nivel}**}"
 
+//entrada
 const nome = "Arthur";
 let xp = 7600;
 let nivel;
 
-
+//verificação do nível do héroi | informa nome e nível 
 if(xp < 1000){
     nivel = Ferro;
     console.log("O herói de nome" , nome," está no nível " , nivel)
