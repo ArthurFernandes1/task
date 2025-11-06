@@ -51,19 +51,18 @@ class hero{
         let atk;
 
         if(this.type == "mago"){
-            atk = "usou magia"
+            atk = "magia"
         }else if (this.type == "guerreiro"){
-            atk = "usou espada"
+            atk = "espada"
         }else if (this.type == "monge"){
-            atk = "usou artes marciais"
+            atk = "artes marciais"
         }else if (this.type == "ninja"){
-            atk = "usou shuriken"
+            atk = "shuriken"
         }
-        console.log(`O ${this.name} atacou usando ${atk}`)
+        console.log(`O ${this.type} atacou usando ${atk}`)
     }
 }
 let newHero = new hero("Arthur", 19 , "mago")
-console.log(newHero);
 newHero.attack();
 
 
